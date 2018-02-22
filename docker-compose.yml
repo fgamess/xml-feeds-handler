@@ -1,0 +1,33 @@
+version: '3.2'
+
+services:
+  php:
+    environment:
+      - APP_ENV=dev
+      - KERNEL_CLASS=App\Kernel
+    container_name: xml_feed_handler_php
+    hostname: php
+    image: fgamess/php7-stack-symfony
+    volumes:
+      - .:/var/www:cached
+      - ./log:/var/log:cached
+    ports:
+      - 9000:80
+    networks:
+      - app_network
+  nginx:
+    container_name: xml_feed_handler_nginx
+    hostname: nginx
+    image: fgamess/nginx-for-symfony
+    ports:
+      - 14400:80
+    volumes:
+      - ./log/nginx:/log/nginx
+    networks:
+      - app_network
+
+networks:
+  app_network:
+    driver: bridge
+volumes:
+    log:

@@ -1,0 +1,9 @@
+{% extends 'base.html.twig' %}
+{% block body %}
+    <nav class="navbar navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Xml Feed Handler</a>
+    </nav>
+    <div id="app" class="container-fluid" >
+        <App :feed-processing-store="feedProcessingStore"/>
+    </div>
+{% endblock %}

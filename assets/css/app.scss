@@ -1,0 +1,29 @@
+// the ~ allows you to reference things in node_modules
+@import '~bootstrap/scss/bootstrap.scss';
+
+.fade-enter-active, .fade-leave-active {
+  transition: opacity .5s;
+}
+.fade-enter, .fade-leave-to /* .fade-leave-active below version 2.1.8 */ {
+  opacity: 0;
+}
+
+.table .text {
+  position: relative;
+}
+.table .text span {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+.text:before {
+  content: '';
+  display: inline-block;
+}
+
+.clickable {
+  cursor: pointer;
+}

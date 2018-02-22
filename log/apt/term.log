@@ -1,0 +1,95 @@
+
+Log started: 2018-02-17  22:00:20
+Selecting previously unselected package libgpm2:amd64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 14453 files and directories currently installed.)
+Preparing to unpack .../libgpm2_1.20.4-6.1+b2_amd64.deb ...
+Unpacking libgpm2:amd64 (1.20.4-6.1+b2) ...
+Selecting previously unselected package vim-common.
+Preparing to unpack .../vim-common_2%3a7.4.488-7+deb8u3_amd64.deb ...
+Unpacking vim-common (2:7.4.488-7+deb8u3) ...
+Selecting previously unselected package vim-runtime.
+Preparing to unpack .../vim-runtime_2%3a7.4.488-7+deb8u3_all.deb ...
+Adding 'diversion of /usr/share/vim/vim74/doc/help.txt to /usr/share/vim/vim74/doc/help.txt.vim-tiny by vim-runtime'
+Adding 'diversion of /usr/share/vim/vim74/doc/tags to /usr/share/vim/vim74/doc/tags.vim-tiny by vim-runtime'
+Unpacking vim-runtime (2:7.4.488-7+deb8u3) ...
+Selecting previously unselected package vim.
+Preparing to unpack .../vim_2%3a7.4.488-7+deb8u3_amd64.deb ...
+Unpacking vim (2:7.4.488-7+deb8u3) ...
+Setting up libgpm2:amd64 (1.20.4-6.1+b2) ...
+Setting up vim-common (2:7.4.488-7+deb8u3) ...
+Setting up vim-runtime (2:7.4.488-7+deb8u3) ...
+Processing /usr/share/vim/addons/doc
+Setting up vim (2:7.4.488-7+deb8u3) ...
+update-alternatives: using /usr/bin/vim.basic to provide /usr/bin/vim (vim) in auto mode
+update-alternatives: using /usr/bin/vim.basic to provide /usr/bin/vimdiff (vimdiff) in auto mode
+update-alternatives: using /usr/bin/vim.basic to provide /usr/bin/rvim (rvim) in auto mode
+update-alternatives: using /usr/bin/vim.basic to provide /usr/bin/rview (rview) in auto mode
+update-alternatives: using /usr/bin/vim.basic to provide /usr/bin/vi (vi) in auto mode
+update-alternatives: using /usr/bin/vim.basic to provide /usr/bin/view (view) in auto mode
+update-alternatives: using /usr/bin/vim.basic to provide /usr/bin/ex (ex) in auto mode
+update-alternatives: using /usr/bin/vim.basic to provide /usr/bin/editor (editor) in auto mode
+Processing triggers for libc-bin (2.19-18+deb8u10) ...
+Log ended: 2018-02-17  22:00:27
+
+Log started: 2018-02-18  00:13:27
+Selecting previously unselected package apt-transport-https.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 16195 files and directories currently installed.)
+Preparing to unpack .../apt-transport-https_1.0.9.8.4_amd64.deb ...
+Unpacking apt-transport-https (1.0.9.8.4) ...
+Setting up apt-transport-https (1.0.9.8.4) ...
+Log ended: 2018-02-18  00:13:30
+
+Log started: 2018-02-18  00:14:25
+Selecting previously unselected package yarn.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 16201 files and directories currently installed.)
+Preparing to unpack .../archives/yarn_1.3.2-1_all.deb ...
+Unpacking yarn (1.3.2-1) ...
+Setting up yarn (1.3.2-1) ...
+Log ended: 2018-02-18  00:14:27
+
+Log started: 2018-02-18  00:16:10
+Selecting previously unselected package libax25.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 16219 files and directories currently installed.)
+Preparing to unpack .../libax25_0.0.12-rc2+cvs20120204-3_amd64.deb ...
+Unpacking libax25 (0.0.12-rc2+cvs20120204-3) ...
+Selecting previously unselected package libfile-copy-recursive-perl.
+Preparing to unpack .../libfile-copy-recursive-perl_0.38-1_all.deb ...
+Unpacking libfile-copy-recursive-perl (0.38-1) ...
+Selecting previously unselected package update-inetd.
+Preparing to unpack .../update-inetd_4.43_all.deb ...
+Unpacking update-inetd (4.43) ...
+Selecting previously unselected package tcpd.
+Preparing to unpack .../tcpd_7.6.q-25_amd64.deb ...
+Unpacking tcpd (7.6.q-25) ...
+Selecting previously unselected package openbsd-inetd.
+Preparing to unpack .../openbsd-inetd_0.20140418-2_amd64.deb ...
+Unpacking openbsd-inetd (0.20140418-2) ...
+Selecting previously unselected package ax25-node.
+Preparing to unpack .../ax25-node_0.3.2-7.4_amd64.deb ...
+Unpacking ax25-node (0.3.2-7.4) ...
+Selecting previously unselected package node.
+Preparing to unpack .../node_0.3.2-7.4_all.deb ...
+Unpacking node (0.3.2-7.4) ...
+Processing triggers for systemd (215-17+deb8u7) ...
+Setting up libax25 (0.0.12-rc2+cvs20120204-3) ...
+Setting up libfile-copy-recursive-perl (0.38-1) ...
+Setting up update-inetd (4.43) ...
+debconf: unable to initialize frontend: Dialog
+debconf: (No usable dialog-like program is installed, so the dialog based frontend cannot be used. at /usr/share/perl5/Debconf/FrontEnd/Dialog.pm line 76.)
+debconf: falling back to frontend: Readline
+Setting up tcpd (7.6.q-25) ...
+Setting up openbsd-inetd (0.20140418-2) ...
+invoke-rc.d: policy-rc.d denied execution of start.
+Setting up ax25-node (0.3.2-7.4) ...
+debconf: unable to initialize frontend: Dialog
+debconf: (No usable dialog-like program is installed, so the dialog based frontend cannot be used. at /usr/share/perl5/Debconf/FrontEnd/Dialog.pm line 76.)
+debconf: falling back to frontend: Readline
+invoke-rc.d: policy-rc.d denied execution of start.
+debconf: unable to initialize frontend: Dialog
+debconf: (No usable dialog-like program is installed, so the dialog based frontend cannot be used. at /usr/share/perl5/Debconf/FrontEnd/Dialog.pm line 76.)
+debconf: falling back to frontend: Readline
+invoke-rc.d: policy-rc.d denied execution of force-reload.
+Setting up node (0.3.2-7.4) ...
+Processing triggers for libc-bin (2.19-18+deb8u10) ...
+Processing triggers for systemd (215-17+deb8u7) ...
+Log ended: 2018-02-18  00:16:15
