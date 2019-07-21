@@ -24,3 +24,4 @@
 .bash_history
 .idea
 /node_modules/
+/node_modules/.bin/
