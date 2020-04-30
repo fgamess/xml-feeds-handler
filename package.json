@@ -3,7 +3,7 @@
         "@symfony/webpack-encore": "^0.28.3",
         "bootstrap": "^4.4.1",
         "bootstrap-sass": "^3.4.1",
-        "jquery": "^3.4.1",
+        "jquery": "^3.5.0",
         "launch-editor-middleware": "^2.2.1",
         "minimist": ">=1.2.3",
         "node-sass": "^4.13.1",
