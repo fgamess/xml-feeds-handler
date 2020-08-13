@@ -53,7 +53,7 @@ final class MessageHandler implements MessageComponentInterface
 //            }
 
 //            $feedUrl = $this->projectDir . DIRECTORY_SEPARATOR . json_decode((string) $msg, true)['feedUrl'];
-            $feedUrl ="https://raw.githubusercontent.com/fgamess/xml-feeds-handler/master/assets/product-feed-sample.xml";
+            $feedUrl ="https://github.com/fgamess/xml-feeds-handler/raw/master/xml-feeds/product-feed-sample.xml";
             foreach($this->xmlFeedProcessor->getDataFromXml($feedUrl) as $data) {
                 $connection->send(json_encode(['message' => json_encode($data)]));
             }
