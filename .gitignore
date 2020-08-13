@@ -1,28 +1,2 @@
-# Managed by Composer
-/var/bootstrap.php.cache
-
-###> symfony/phpunit-bridge ###
-.phpunit
-/phpunit.xml
-###< symfony/phpunit-bridge ###
-
-###> symfony/framework-bundle ###
-.env
-/public/bundles/
-/var/
-/vendor/
-###< symfony/framework-bundle ###
-
-###> symfony/webpack-encore-pack ###
-
-###< symfony/webpack-encore-pack ###
-
-# Build data
-/build/
-
-.composer
 .bash_history
 .idea
-/node_modules/
-/node_modules/.bin/
-/node_modules/.bin/*
