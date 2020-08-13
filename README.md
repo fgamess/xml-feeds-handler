@@ -59,15 +59,12 @@ Connect to the php container with the www-data user:
 How to use
 ----------
 
-###### Submit the Product feed url
+###### Start processing the xml feed
 
-On the homepage past the url below in the input and submit:
+The xml feed is located at:
 
-    http://pf.tradetracker.net/?aid=1&type=xml&encoding=utf8&fid=251713&categoryType=2&additionalType=2
-    
-You can also use this local url:
+    https://github.com/fgamess/xml-feeds-handler/raw/master/xml-feeds/product-feed-sample.xml
 
-    ../assets/product-feed-sample.xml
     
 Just wait, the data will be displayed as long as the processing is not finished.
 
