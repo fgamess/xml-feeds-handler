@@ -1,6 +1,16 @@
 # xml-feeds-handler
 ------------------------
-Xml feeds handler using Symfony 4 and VueJS
+Xml feeds handler using Symfony 5 and VueJS. 
+
+> /!\ WARNING this repository is still a work in progress since I started recently a bunch of updates. 
+
+
+## TODO
+- Docker-compose incoming updates(I am intending to remove the nginx container because I only need a php container to make this work properly. Then it will be up to you, either you use the php container
+or you use a local installation of PHP in your environment.)
+- VueJS front components incoming updates
+- feature to choose either to provide an xml feed compliant with the required format, either start processing the existing remote XML feed
+- Unit and functional tests
 
 ## Table of contents
 - [Prerequisites](https://github.com/fgamess/xml-feeds-handler#prerequisites)
@@ -35,7 +45,7 @@ then
 
     docker-compose up -d
 
-You only need this command. It will start the containers (php7, nginx).
+You only need this command. It will start the php7 container
 
 ###### Setting www-data as owner of the files.
 
