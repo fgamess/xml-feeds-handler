@@ -1,31 +1,31 @@
 <template>
-    <div>
-        <div id="form-view"  v-show="appState.beforeFeedProcessing ">
-            <h1>Product Feed form</h1>
-            <ProductFeedForm :app-state="appState" :feed-processing-store="feedProcessingStore"/>
-        </div>
+    <div id="app">
+        <b-container>
+            <b-navbar toggleable="lg" type="dark" variant="info">
+                <b-navbar-brand href="#">XML Feed Handler 2</b-navbar-brand>
+                <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
 
-        <transition name="fade">
-            <FeedProcessing :app-state="appState" :feed-processing-store="feedProcessingStore" v-show="appState.readyToProcess || appState.feedProcessing"/>
-        </transition>
+                    <b-navbar-nav>
+                        <b-nav-item to="/home">
+                                Home
+                        </b-nav-item>
+                        <b-nav-item href="#" disabled>Disabled</b-nav-item>
+                    </b-navbar-nav>
 
-        <FeedProcessed v-if="appState.feedProcessed"/>
+                <!-- <nav class="navbar navbar-expand navbar-dark bg-dark">
+                    <a href class="navbar-brand" @click.prevent>XML Feed Handler</a>
+                    <div class="navbar-nav mr-auto">
+                        <li class="nav-item">
+                        <router-link to="/home" class="nav-link">
+                            <font-awesome-icon icon="home" />Home
+                        </router-link>
+                        </li>
+                    </div>
+                </nav> -->
+            </b-navbar>
+            <div class="container">
+                <router-view />
+            </div>
+        </b-container>
     </div>
 </template>
-
-<script>
-import ProductFeedForm from './components/ProductFeedForm'
-import FeedProcessing from './components/FeedProcessing'
-import FeedProcessed from './components/FeedProcessed'
-
-export default {
-  props: ['feedProcessingStore'],
-  components: { ProductFeedForm, FeedProcessing, FeedProcessed },
-  data () {
-    return {
-      appState: this.feedProcessingStore.state
-    }
-  }
-
-}
-</script>

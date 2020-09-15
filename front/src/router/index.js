@@ -1,13 +1,13 @@
 import Vue from 'vue'
-import Router from 'vue-router'
+import VueRouter from 'vue-router'
 import productFeedFormRoute from './productFeedForm'
 
-Vue.use(Router)
+Vue.use(VueRouter)
 
 // const Foo = { template: '<div>foo</div>' }
 // const Bar = { template: '<div>bar</div>' }
 
-const router = new Router({
+const router = new VueRouter({
   mode: 'history',
   routes: [
     // {
