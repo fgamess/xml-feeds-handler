@@ -21,7 +21,7 @@
         "@fortawesome/vue-fontawesome": "^0.1.10",
         "@popperjs/core": "^2.4.4",
         "@vue/babel-helper-vue-jsx-merge-props": "^1.0.0",
-        "axios": "^0.19.2",
+        "axios": "^0.21.1",
         "bootstrap": "^4.5.2",
         "bootstrap-vue": "^2.16.0",
         "font-awesome": "^4.7.0",
